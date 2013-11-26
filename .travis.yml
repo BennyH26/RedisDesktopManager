@@ -10,7 +10,7 @@ before_install:
 - brew install openssl
 - brew install libssh2
 - brew install redis
-- clang --version
+- clang --version 
 - brew install llvm --with-clang --with-asan
 - clang --version
 before_script:
